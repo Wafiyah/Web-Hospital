@@ -1,0 +1,116 @@
+*{margin:0px;padding:0}
+.body{font-family:arial;font-size:14px;line-height:20px;color:black}
+.main{width:960px;margin:0px auto}
+.header{ color:gray;}
+.header img{width:960px;height:70px}
+.slider{}
+
+
+.main_menu{ margin:0px;padding:0px;background:#ededed;overflow:hidden}
+
+
+ 
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+.main_menu ul{ margin:0px;padding:0px;overflow:hidden;list-style:none}
+.main_menu ul li{ float:left; padding:7px;border-right:100px solid #red;overflow:hidden;}
+.main_menu ul li a{float:left;text-decoration:none; overflow:hidden;padding:10px;border-right:70px;display:block;}
+.main_menu ul li a:hover{ background:gray;}
+.main_content{height:400px}
+.content{width:960px;margin-left:200px;padding:10px;}
+.content_heading{color:3a2215;font-family:Ravie;margin-bottom:10px;margin-right:20px;margin-top:20px}
+.slider_header{margin-top:20px}
+.content_para{margin-left:10px}
+
+.slider{margin-top:0px}
+.slider img{width:960px;height:200px}
+.footer{background:#ededed;color:gray;margin-right:200px;margin-left:200px;padding-top:20px;margin-top:30px;margin-bottom:30px;width:960px}
+
+
+

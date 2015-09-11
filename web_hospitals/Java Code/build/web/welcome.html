@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome</title>
+<script>
+    function submitForm(action)
+    {
+        document.getElementById('columnarForm').action = action;
+        document.getElementById('columnarForm').submit();
+    }
+</script>        
+    </head>
+    <body>
+       <form method="post" action="">
+           <br> <input name="Submit" type="submit" value="Insert Doctor Information " formaction="insert.html"/> </br>
+           <br> <input name="Submit" type="submit" value="Insert Department information " formaction="insertdept.html" /></br>
+           <br><input name="Submit" type="submit" value="Update Doctor information " formaction="update.html"/></br>
+           
+           <br><input name="Submit" type="submit" value= " Log Out" formaction="index.html"/></br>
+           
+         </form>
+    </body>
+</html>
